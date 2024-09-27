@@ -24,13 +24,3 @@ def validate_age(age):
         return True
     except:
         return False
-
-# write a function to validate the experience column
-def validate_experience(experience):
-    try:
-        experience = int(experience)
-        if experience < 0:
-            return False
-        return True
-    except:
-        return False
